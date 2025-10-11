@@ -220,6 +220,7 @@ article {
 
 #projeto-container .foto {
   width: 100%;
+  margin-top: 10px;
   aspect-ratio: 16/9;
   object-fit: cover;
   overflow: hidden;
