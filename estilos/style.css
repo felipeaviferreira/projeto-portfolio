@@ -223,7 +223,6 @@ article {
 
 #projeto-container .foto {
   width: 100%;
-  margin-top: 10px;
   aspect-ratio: 16/9;
   object-fit: cover;
   overflow: hidden;
@@ -248,6 +247,22 @@ footer a:hover {
 }
 
 @media screen and (min-widht:768px) {
+  main {
+    grid-template-columns: auto 300px 1fr auto;
+  }
+
+  section#ficha {
+    grid-column: 2 / 3;
+    height: fit-content;
+    position: sticky;
+    top: 65px;
+  }
+
+  section#detalhes {
+    grid-column: 3 / 4;
+  }
+
+
   #skil-container {
     grid-template-columns: 1fr 1fr;
   }
